@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Guest Check-in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Wedding Guest Check-in</h1>
+        <input type="text" id="nameSearch" placeholder="Enter guest name or phone number">
+        <ul id="nameList"></ul>
+        <button id="addGuestButton" class="add-guest-btn">Add Guest</button>
+    </div>
+
+    <!-- Add Guest Modal -->
+    <div id="addGuestModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Guest</h2>
+            <form id="addGuestForm">
+                <input type="text" id="newGuestName" placeholder="Guest Name" required>
+                <input type="text" id="newGuestPhone" placeholder="Phone Number" required>
+                <button type="submit">Add Guest</button>
+            </form>
+            <div id="addGuestMessage"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
+
