@@ -1,7 +1,3 @@
-Here’s a detailed `README.md` file for your **Wedding Guest Check-in App** project. You can adapt it as needed, depending on specific project details:
-
----
-
 # Wedding Guest Check-in App
 
 This web-based application allows users to manage guest check-ins at a wedding event. It provides real-time updates of guest statuses, the ability to search guests by name or phone number, and easily mark them as "checked-in". It also features the ability to add new guests to the list during the event.
