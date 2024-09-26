@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wedding Guest Check-in App
 
 This is a simple Flask-based app to help manage guest check-ins at a wedding. Guests will provide their names at the entrance, and the app will display their table number and mark them as arrived in a Google Sheets document.
@@ -30,4 +31,8 @@ This is a simple Flask-based app to help manage guest check-ins at a wedding. Gu
 - Flask
 - gspread
 - oauth2client
+
+=======
+# wedding-guest-checkin
+App for wedding guests check-in
 
