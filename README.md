@@ -1,2 +1,2 @@
 # wedding-guest-checkin
-Appfor wedding guests check-in
+App for wedding guests check-in
