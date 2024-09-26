@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+
+# Ignore credential files
+credentials.json
+
+# Ignore build-related files and folders
+build/
+dist/
+__pycache__/
+*.spec
+
+# Ignore service files or configs if necessary
+service
